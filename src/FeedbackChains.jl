@@ -6,7 +6,7 @@ import Base: getindex, show
 using MacroTools: @forward
 
 using ..Splitters
-using ..Mergers
+using ..AbstractMergers
 using ..AbstractFeedbackNets
 export FeedbackChain
 
