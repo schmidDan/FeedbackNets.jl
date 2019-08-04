@@ -31,7 +31,7 @@ function (c::FeedbackChain)(h, x)
     for layer ∈ c.layers
         if layer isa Splitter
             newh[splitname(layer)] = x
-        elseif layer isa Merger
+        elseif layer isa AbstractMerger
             x = layer(x, h)
         else
             x = layer(x)
