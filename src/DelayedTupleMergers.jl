@@ -1,7 +1,7 @@
 module DelayedTupleMergers
 
-using FeedbackNets: AbstractMerger
-import FeedbackNets.Mergers: inputname
+using ..AbstractMerger
+import ..Mergers: inputname
 
 export DelayedTupleMerger,
        DelayedTupleMergerPadded

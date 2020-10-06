@@ -10,6 +10,7 @@ using Reexport
 include("Splitters.jl")
 include("AbstractMergers.jl")
 include("Mergers.jl")
+include("DelayedTupleMergers.jl")
 include("AbstractFeedbackNets.jl")
 include("FeedbackChains.jl")
 include("FeedbackTrees.jl")
@@ -17,6 +18,7 @@ include("ModelFactory.jl")
 @reexport using .Splitters
 @reexport using .AbstractMergers
 @reexport using .Mergers
+@reexport using .DelayedTupleMergers
 @reexport using .AbstractFeedbackNets
 @reexport using .FeedbackChains
 @reexport using .FeedbackTrees
