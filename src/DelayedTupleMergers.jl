@@ -1,6 +1,6 @@
 module DelayedTupleMergers
 
-using ..AbstractMerger
+using ..AbstractMergers: AbstractMerger
 import ..Mergers: inputname
 
 export DelayedTupleMerger,
